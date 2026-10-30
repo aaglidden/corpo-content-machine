@@ -1,0 +1,44 @@
+name: shortlist
+
+# Sundays at 14:00 UTC (7am Pacific), an hour after that day's gather, started
+# by the Cloudflare Worker's cron. There's no GitHub schedule as a backup: a
+# second run the same day would stop at "There's already a shortlist". If the
+# Worker can't start it, it says so in Slack; run it from the Actions tab.
+on:
+  repository_dispatch:
+    types: [shortlist]
+  workflow_dispatch:
+
+# Commits the shortlist, and marks the ideas in it as shortlisted;
+# shortlist.py sends it to Slack.
+permissions:
+  contents: write
+
+jobs:
+  shortlist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Pick the week's shortlist and send it
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+        run: python shortlist.py
+
+      - name: Save it
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add shortlists
+          [ -d ideas ] && git add ideas
+          git commit -m "Shortlist for $(date -u +%F)"
+          git pull --rebase
+          git push

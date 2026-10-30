@@ -1,0 +1,51 @@
+# The weekly posting slots: what each weekday's post is.
+#
+# shortlist.py sorts the week's candidates into these slots, and draft.py
+# writes each post to its slot's brief.
+#
+# To change the week, edit this file. `name` is what the shortlist assigns,
+# `brief` is what the drafter is told, and `wants` is what the shortlist
+# looks for. Buffer's posting times are set in Buffer, not here. Add or remove days to
+# fit your week; a company that posts less often can delete slots.
+
+slots:
+  - day: Mon
+    name: news take
+    wants: >-
+      A trade news story with a take: something that changed, a reversal, a
+      shift. Suits a screenshot of the headline or stat.
+    brief: >-
+      A news take. React to the story and say why it matters. Name the source
+      in the text. It will go out with an image of the headline or stat.
+
+  - day: Tue
+    name: stat of the week
+    wants: >-
+      A single striking number from a report or survey in the news, one that
+      is stated in the source. Judge it by the number alone: a theme the company has
+      covered or passed on before doesn't rule it out, and it can come from a
+      story that is also a news take. Only pick when the number is actually
+      there.
+    brief: >-
+      A short caption of one to three sentences for a stat graphic. Name the
+      source and make one point about what the number means. Use only the
+      figure as the source states it. No opener or ending ritual.
+    media: stat graphic
+
+  - day: Wed
+    name: opinion
+    wants: >-
+      One of the team's own ideas or a story the company has a view on, where a point can be
+      argued in a short post.
+    brief: >-
+      An opinion post that argues one point and ends in a direct, specific
+      question to the reader.
+
+  - day: Fri
+    name: story
+    wants: >-
+      A story from the team's own ideas, such as something the company tried,
+      learned or noticed. Only team ideas qualify, never news.
+    brief: >-
+      A short story from the company's own work, told in first person plural,
+      with the lesson left to linger. The interview answers carry it.

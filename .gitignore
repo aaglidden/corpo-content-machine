@@ -1,0 +1,12 @@
+# Python environment and cache
+.venv/
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Wrangler local cache
+.wrangler/
+
+# Rendered stat graphics
+renders/

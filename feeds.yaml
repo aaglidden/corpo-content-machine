@@ -1,0 +1,107 @@
+# NOTE: the sources and keywords below are AdTech examples. Replace them with
+# the trade news your company's page should react to.
+
+# The trade-news sources that feed the pool (gather.py → news.json).
+#
+# Each feed has a category (adtech, platforms, tech, pmm) so a drafted post can
+# say where the idea came from. A feed with `filter: true` only lets through
+# items that mention one of the keywords below; everything else passes whole.
+# `exclude_links` drops any item whose link contains one of the given strings.
+
+keywords:
+  - advertising
+  - advertiser
+  - advertisers
+  - ads
+  - ad
+  - marketing
+  - marketer
+  - marketers
+  - measurement
+  - marketing mix
+  - mmm
+  - attribution
+  - incrementality
+  - brand
+  - brands
+  - campaign
+  - campaigns
+  - commerce
+  - shopping
+  - meridian
+
+feeds:
+  # AdTech
+  - name: AdExchanger
+    category: adtech
+    url: https://www.adexchanger.com/feed/
+  - name: Digiday
+    category: adtech
+    url: https://digiday.com/feed/
+  - name: Adweek
+    category: adtech
+    url: https://www.adweek.com/feed/
+  - name: ExchangeWire
+    category: adtech
+    url: https://www.exchangewire.com/feed/
+  - name: MarTech
+    category: adtech
+    url: https://martech.org/feed/
+  - name: Beet.TV
+    category: adtech
+    url: https://www.beet.tv/feed
+  - name: IAB
+    category: adtech
+    url: https://www.iab.com/feed/
+  # Eric Seufert's site blocks feed readers, so we take his podcast instead.
+  - name: Mobile Dev Memo Podcast
+    category: adtech
+    url: https://anchor.fm/s/45369a8/podcast/rss
+  - name: Marketecture
+    category: adtech
+    url: https://feeds.megaphone.fm/EAATE3740759293
+
+  # AI labs and platforms. The broad ones post about everything, so they're
+  # filtered down to the ad-related items.
+  - name: OpenAI News
+    category: platforms
+    url: https://openai.com/news/rss.xml
+    filter: true
+  - name: Google Ads & Commerce
+    category: platforms
+    url: https://blog.google/products/ads-commerce/rss/
+  - name: Google Marketing Platform
+    category: platforms
+    url: https://blog.google/products/marketingplatform/rss/
+  - name: Google Ads Developer
+    category: platforms
+    url: https://ads-developers.googleblog.com/feeds/posts/default
+  - name: Google AI
+    category: platforms
+    url: https://blog.google/technology/ai/rss/
+    filter: true
+
+  # General tech
+  - name: Lenny's Newsletter
+    category: tech
+    url: https://www.lennysnewsletter.com/feed
+
+  # PMM
+  # The feed mixes articles with ads for PMA's paid courses, which all live
+  # under /learning/. Events stay in.
+  - name: Product Marketing Alliance
+    category: pmm
+    url: https://www.productmarketingalliance.com/feed/
+    exclude_links:
+      - /learning/
+  - name: April Dunford
+    category: pmm
+    url: https://aprildunford.substack.com/feed
+
+# Sites with no feed. We read their sitemap and treat any URL we haven't seen
+# before as a new article. `prefix` keeps us to the English articles.
+sitemaps:
+  - name: Think with Google
+    category: platforms
+    url: https://business.google.com/sitemaps/twg/sitemap.xml
+    prefix: https://business.google.com/en-all/think/

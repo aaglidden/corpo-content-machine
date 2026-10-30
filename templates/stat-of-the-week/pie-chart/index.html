@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" data-composition-variables='[{"id": "eyebrow", "type": "string", "label": "Eyebrow", "default": "Stat of the week"}, {"id": "value", "type": "number", "label": "Share shown, in percent", "default": 33, "min": 3, "max": 90}, {"id": "suffix", "type": "string", "label": "Suffix", "default": "%"}, {"id": "blurb", "type": "string", "label": "One-line explainer", "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod."}]'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1080">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      /* Brand fonts (swap in your own) */
+      @font-face {
+        font-family: "Hedvig Letters Serif";
+        src: url("assets/fonts/hedvig.woff2") format("woff2");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url("assets/fonts/inter-400.woff2") format("woff2");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url("assets/fonts/inter-500.woff2") format("woff2");
+        font-weight: 500;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url("assets/fonts/inter-700.woff2") format("woff2");
+        font-weight: 700;
+      }
+
+      /* Palette (swap in your own) */
+      :root {
+        --bg: #f7f6f2; /* soft white */
+        --green: #1f514c; /* brand forest green */
+        --green-hi: #2a675f; /* lit edge */
+        --green-lo: #173f3b; /* shaded edge */
+        --ink: #141414;
+        --white: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1080px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--bg);
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(120% 90% at 50% 35%, #fbfaf7 0%, var(--bg) 60%, #efede7 100%);
+        font-family: "Inter", sans-serif;
+      }
+      #scene {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        perspective: 1600px;
+      }
+
+      /* Rounded card with soft 3D shading */
+      #card {
+        position: relative;
+        width: 840px;
+        height: 840px;
+        transform-origin: 50% 60%;
+      }
+      /* green surface — separate from the text so it can expand to full frame on exit */
+      #card-bg {
+        position: absolute;
+        inset: 0;
+        border-radius: 56px;
+        background: linear-gradient(150deg, var(--green-hi) 0%, var(--green) 45%, var(--green-lo) 100%);
+        box-shadow:
+          inset 0 2px 0 rgba(255, 255, 255, 0.18),
+          inset 0 -6px 14px rgba(0, 0, 0, 0.22),
+          0 2px 4px rgba(20, 20, 20, 0.08),
+          0 18px 36px rgba(20, 20, 20, 0.14),
+          0 48px 90px rgba(31, 81, 76, 0.22);
+      }
+      /* top-left sheen for depth */
+      #card-sheen {
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background: radial-gradient(80% 60% at 20% 0%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
+        pointer-events: none;
+      }
+
+      .card-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 72px 88px;
+        gap: 24px;
+        color: var(--white);
+      }
+      #eyebrow {
+        display: block;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      /* pie + callout row */
+      #pie-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 48px;
+        margin-top: 40px;
+      }
+      #pie {
+        display: block;
+        flex: none;
+        width: 360px;
+        height: 360px;
+        overflow: visible;
+      }
+      .slice {
+        fill: none;
+        stroke: rgba(255, 255, 255, 0.55);
+        stroke-width: 3;
+        stroke-linejoin: round;
+      }
+      #slice-hero {
+        fill: var(--white);
+        stroke: var(--white);
+      }
+      #leader {
+        stroke: var(--white);
+        stroke-width: 3;
+        stroke-linecap: round;
+        fill: none;
+      }
+      #leader-dot {
+        fill: var(--white);
+      }
+      #callout {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        flex: 1;
+      }
+      #stat {
+        display: block;
+        font-family: "Hedvig Letters Serif", serif;
+        font-size: 150px;
+        line-height: 0.92;
+        letter-spacing: -0.03em;
+        font-variant-numeric: tabular-nums;
+      }
+      #stat-pct {
+        font-size: 0.62em;
+        margin-left: 0.04em;
+      }
+      #blurb {
+        display: block;
+        font-size: 32px;
+        line-height: 1.3;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-otst" id="root" data-composition-id="main" data-start="0" data-duration="8" data-width="1080" data-height="1080">
+      <div data-hf-id="hf-u6gg" id="scene" class="clip" data-start="0" data-duration="8" data-track-index="0">
+        <div data-hf-id="hf-55rf" id="card">
+          <div data-hf-id="hf-wcp6" id="card-bg" data-layout-allow-overflow="true"><div data-hf-id="hf-j9cf" id="card-sheen"></div></div>
+          <div data-hf-id="hf-3rv6" class="card-content">
+            <span data-hf-id="hf-6usr" id="eyebrow" data-var-text="eyebrow">Stat of the week</span>
+            <div data-hf-id="hf-ap7m" id="pie-row">
+              <svg data-hf-id="hf-c82q" id="pie" viewBox="0 0 360 360" data-layout-allow-overflow="true">
+                <g id="pie-group">
+                  <path class="slice" id="slice-2" d="" />
+                  <path class="slice" id="slice-3" d="" />
+                  <path class="slice" id="slice-hero" d="" />
+                </g>
+                <!-- leader from the hero slice (just outside its 60° edge) out to the callout -->
+                <circle data-hf-id="hf-05jv" id="leader-dot" cx="350" cy="88" r="6" />
+                <path data-hf-id="hf-yxhs" id="leader" d="M350 88 L392 88" />
+              </svg>
+              <div data-hf-id="hf-99jv" id="callout">
+                <span data-hf-id="hf-gj88" id="stat"><span id="stat-num">0</span><span id="stat-pct">%</span></span>
+                <span data-hf-id="hf-0hrk" id="blurb" data-var-text="blurb">Lorem ipsum dolor sit amet, consectetur.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const vars = window.__hyperframes.getVariables();
+      const STAT_TARGET = vars.value;
+      const DECIMALS = Number.isInteger(STAT_TARGET) ? 0 : 1;
+      document.getElementById("stat-pct").textContent = vars.suffix;
+      // Shrink the number's font so a long value still fits its box. The
+      // widths are estimates (no font measuring), so they hold in every render.
+      function fitStat(el, text) {
+        const maxFont = parseFloat(getComputedStyle(el).fontSize);
+        const maxWidth = el.clientWidth;
+        const weight = [...text].reduce((w, c) => w + (/\d/.test(c) ? 1 : c === "," || c === "." ? 0.45 : 0.62), 0);
+        el.style.fontSize = Math.min(maxFont, Math.floor(maxWidth / (weight * 0.6))) + "px";
+      }
+      function formatNumber(v, decimals) {
+        return v.toLocaleString("en-US", { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+      }
+      fitStat(document.getElementById("stat"), formatNumber(STAT_TARGET, DECIMALS) + vars.suffix);
+
+      // The pie: the hero slice is the given share, turned so its middle always
+      // points at 60 degrees (where the leader line starts). The rest of the pie
+      // is two even slices.
+      const R = 170;
+      const pt = (deg) => `${(180 + R * Math.sin((deg * Math.PI) / 180)).toFixed(1)} ${(180 - R * Math.cos((deg * Math.PI) / 180)).toFixed(1)}`;
+      const wedge = (from, to) => `M180 180 L${pt(from)} A${R} ${R} 0 ${to - from > 180 ? 1 : 0} 1 ${pt(to)} Z`;
+      const span = (Math.min(Math.max(STAT_TARGET, 3), 90) / 100) * 360;
+      const start = 60 - span / 2;
+      const end = start + span;
+      const mid = end + (360 - span) / 2;
+      document.getElementById("slice-hero").setAttribute("d", wedge(start, end));
+      document.getElementById("slice-2").setAttribute("d", wedge(end, mid));
+      document.getElementById("slice-3").setAttribute("d", wedge(mid, start + 360));
+      const tl = gsap.timeline({ paused: true });
+      const numEl = document.getElementById("stat-num");
+      const counter = { v: 0 };
+      const leader = document.getElementById("leader");
+      const leaderLen = leader.getTotalLength();
+
+      // Beat 1 (0–1s): card slides up into view, tilting flat as it lands
+      tl.fromTo(
+        "#card",
+        { y: 1150, rotateX: 22, scale: 0.94 },
+        { y: 0, rotateX: 0, scale: 1, duration: 0.95, ease: "power3.out" },
+        0
+      );
+
+      // Beat 2 (1–3s): eyebrow → pie spins in → 33% slice fills and pulls out → leader → callout
+      tl.fromTo("#eyebrow", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 1.0);
+      tl.fromTo(
+        "#pie-group",
+        { autoAlpha: 0, rotation: -90, scale: 0.6, svgOrigin: "180 180" },
+        { autoAlpha: 1, rotation: 0, scale: 1, svgOrigin: "180 180", duration: 0.7, ease: "power3.out" },
+        1.15
+      );
+      tl.fromTo(
+        "#slice-hero",
+        { fillOpacity: 0, x: 0, y: 0 },
+        { fillOpacity: 1, x: 12, y: -7, duration: 0.5, ease: "power2.out" },
+        1.7
+      );
+      tl.fromTo("#leader-dot", { autoAlpha: 0, scale: 0, svgOrigin: "350 88" }, { autoAlpha: 1, scale: 1, svgOrigin: "350 88", duration: 0.25, ease: "back.out(2)" }, 1.95);
+      tl.fromTo(leader, { strokeDasharray: leaderLen, strokeDashoffset: leaderLen }, { strokeDashoffset: 0, duration: 0.3, ease: "power2.out" }, 2.0);
+      tl.fromTo("#stat", { autoAlpha: 0, x: -16 }, { autoAlpha: 1, x: 0, duration: 0.45, ease: "power3.out" }, 2.15);
+      tl.fromTo(
+        counter,
+        { v: 0 },
+        {
+          v: STAT_TARGET,
+          duration: 0.85,
+          ease: "power3.out",
+          onUpdate: () => {
+            numEl.textContent = formatNumber(counter.v, DECIMALS);
+          },
+        },
+        2.15
+      );
+      tl.fromTo("#blurb", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 2.45);
+
+      // Rest 3.0–6.0 on the full card, then exit:
+      // 6.0–6.8 green surface expands to fill the frame (text stays put)
+      tl.to("#card-bg", { scale: 1.3, borderRadius: 0, duration: 0.8, ease: "power3.inOut" }, 6.0);
+      // 6.9–7.3 text fades in place
+      tl.to(["#eyebrow", "#pie", "#callout"], { autoAlpha: 0, duration: 0.4, ease: "power1.in" }, 6.9);
+      // 7.3–7.95 green fades to the soft white opening frame for a seamless loop
+      tl.to("#card-bg", { autoAlpha: 0, duration: 0.65, ease: "power1.inOut" }, 7.3);
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

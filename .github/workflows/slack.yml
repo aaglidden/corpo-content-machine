@@ -1,0 +1,85 @@
+name: slack
+
+# Started by the Cloudflare Worker (worker/) whenever someone presses a button,
+# or writes in the channel. handle.py does
+# the work and answers in the channel.
+on:
+  repository_dispatch:
+    types: [slack]
+  # "Run workflow" in the Actions tab resends the latest shortlist.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Messages arriving close together run one after another instead of racing,
+# so none of them drafts the same pick twice or loses an interview answer.
+concurrency:
+  group: slack
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    runs-on: ubuntu-latest
+    steps:
+      # A repository_dispatch run is pinned to the commit that was latest when
+      # it was queued. One that waited behind another run would start from
+      # before that run's save, and its rebase would then conflict. Check out
+      # the branch tip instead.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      # The Tuesday stat graphic renders with HyperFrames: Node to run it,
+      # ffmpeg to encode (not on the runner by default), Chrome downloads on
+      # first use.
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/hyperframes
+          key: hyperframes-0.8.124
+
+      - name: Handle the message
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+        run: python handle.py
+
+      # Records new ideas, interview answers, which picks are in Buffer, and the
+      # verdicts. Runs even if a later step failed, so what did land isn't
+      # drafted again or lost.
+      - name: Save what changed
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain shortlists ideas verdicts.json onboarding.json voice-drafts)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add shortlists
+            [ -d ideas ] && git add ideas
+            [ -f verdicts.json ] && git add verdicts.json
+            [ -f onboarding.json ] && git add onboarding.json
+            [ -d voice-drafts ] && git add voice-drafts
+            git commit -m "Record ideas, interviews and drafts"
+            git pull --rebase
+            git push
+          fi

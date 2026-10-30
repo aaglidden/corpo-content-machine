@@ -1,0 +1,50 @@
+name: gather
+
+# Daily at 13:00 UTC (6am Pacific), started by the Cloudflare Worker's cron.
+# The busiest trade feeds only hold two to four days of articles, so a daily
+# run is what keeps any from slipping through.
+on:
+  repository_dispatch:
+    types: [gather]
+  # A backup in case the Worker's run never comes. GitHub often starts it
+  # hours late; by then the Worker's run has usually done the work.
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+# The Worker's run and the backup can overlap; one waits for the other.
+concurrency:
+  group: gather
+  cancel-in-progress: false
+
+# The job commits news.json and seen.json back to the repo.
+permissions:
+  contents: write
+
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Add new items to the idea pool
+        run: python gather.py
+
+      - name: Save the pool
+        run: |
+          if [ -n "$(git status --porcelain news.json seen.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add news.json seen.json
+            git commit -m "Update news pool"
+            git pull --rebase
+            git push
+          else
+            echo "Nothing changed"
+          fi

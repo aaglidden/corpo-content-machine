@@ -1,0 +1,7 @@
+name = "content-machine-slack"
+main = "index.js"
+compatibility_date = "2026-09-01"
+
+# Starts gather and shortlist; index.js maps each cron to its workflow. UTC.
+[triggers]
+crons = ["0 13 * * *", "0 14 * * SUN"]

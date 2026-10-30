@@ -1,0 +1,57 @@
+# GitLab equivalent of .github/workflows/gather.yml and shortlist.yml.
+#
+# Create two pipeline schedules (Build → Pipeline schedules), each with a JOB
+# variable:
+#   JOB=gather     daily, e.g. cron "0 13 * * *"
+#   JOB=shortlist  weekly, e.g. cron "0 14 * * 0"
+#
+# CI/CD variables (Settings → CI/CD → Variables, masked):
+#   ANTHROPIC_API_KEY, SLACK_BOT_TOKEN, SLACK_CHANNEL_ID
+#   PUSH_TOKEN   a project access token with Developer role and write_repository,
+#                used to commit the results back to the default branch
+#
+# The Slack bot (the `slack` workflow and the Cloudflare Worker) is
+# GitHub-only for now; see the README.
+
+default:
+  image: python:3.12-slim
+
+.commit_back: &commit_back |
+  git config user.name "gitlab-ci"
+  git config user.email "gitlab-ci@users.noreply.${CI_SERVER_HOST}"
+  git remote set-url origin "https://oauth2:${PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+
+gather:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $JOB == "gather"'
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install -r requirements.txt
+  script:
+    - python gather.py
+    - *commit_back
+    - |
+      if [ -n "$(git status --porcelain news.json seen.json)" ]; then
+        git add news.json seen.json
+        git commit -m "Update news pool"
+        git pull --rebase origin "$CI_DEFAULT_BRANCH"
+        git push origin "HEAD:$CI_DEFAULT_BRANCH"
+      else
+        echo "Nothing changed"
+      fi
+
+shortlist:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule" && $JOB == "shortlist"'
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git
+    - pip install -r requirements.txt
+  script:
+    - python shortlist.py
+    - *commit_back
+    - |
+      git add shortlists
+      [ -d ideas ] && git add ideas
+      git commit -m "Shortlist for $(date -u +%F)"
+      git pull --rebase origin "$CI_DEFAULT_BRANCH"
+      git push origin "HEAD:$CI_DEFAULT_BRANCH"
