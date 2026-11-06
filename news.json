@@ -2698,5 +2698,325 @@
     "published": "2026-11-04T19:47:23+00:00",
     "summary": "Earlier this year, the Google Ads API started requiring multi-party approvals (MPA) when performing sensitive API actions. Starting the week of December 7, 2026 , we are introducing additional changes to improve the developer experience for multi-party approvals. What’s changing? Deferred access invitation creation: If a multi-party approval is required, the CustomerUserAccessInvitationService.MutateCustomerUserAccessInvitation method will defer the creation of the access invitation resource unt…",
     "added": "2026-11-05T20:34:36.637113+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=473544",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "Will The Blue Wave Midterms Put A Damper On Ad Tech M&A?",
+    "link": "https://www.adexchanger.com/the-big-story/will-the-blue-wave-midterms-put-a-damper-on-ad-tech-ma/",
+    "published": "2026-11-06T17:22:06+00:00",
+    "summary": "It’s been a hot year for mergers and acquisitions in ad tech and media. But the M&A trend might be due for a cooldown. Between DoorDash-Instacart, Publicis-LiveRamp, Nielsen-DoubleVerify, Skydance-Paramount and Stagwell-Freestar, there’s been plenty to discuss regarding blockbuster consolidation. And how the political landscape affects such deals is always a prominent talking point. The thinking […] The post Will The Blue Wave Midterms Put A Damper On Ad Tech M&A? appeared first on AdExchanger .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=473374",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "Swivel Wants To Create Agentic Infrastructure For CTV",
+    "link": "https://www.adexchanger.com/ctv-roundup/swivel-wants-to-create-agentic-infrastructure-for-ctv/",
+    "published": "2026-11-06T05:45:53+00:00",
+    "summary": "Agentic media buying is the No. 1 topic du jour in ad tech discussion circles. But how does agentic buying even work when it comes to buying TV and streaming ads? And how does that workflow differ from programmatic? The startup Swivel aims to address those questions. The post Swivel Wants To Create Agentic Infrastructure For CTV appeared first on AdExchanger .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=473447",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "Comic: For Puck’s Sake",
+    "link": "https://www.adexchanger.com/comic-strip/comic-for-pucks-sake/",
+    "published": "2026-11-06T05:15:09+00:00",
+    "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem … The post Comic: For Puck’s Sake appeared first on AdExchanger .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=473485",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "Agencies Are Not Pitch Perfect; Magnite (And Everyone Else) Bets On Agentic",
+    "link": "https://www.adexchanger.com/daily-news-roundup/friday-06112026/",
+    "published": "2026-11-06T05:03:22+00:00",
+    "summary": "WPP CEO Cindy Rose recently criticized the rise of “CEO handshake” account wins. Plus: Magnite reported a 20% year-over-year ex-TAC revenue increase to $200.6 million in Q3. The post Agencies Are Not Pitch Perfect; Magnite (And Everyone Else) Bets On Agentic appeared first on AdExchanger .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616096",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Amazon’s shopping agent now takes orders by text, with Sponsored Product ads in the replies",
+    "link": "https://digiday.com/media-buying/amazons-shopping-agent-now-takes-orders-by-text-with-sponsored-product-ads-in-the-replies/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-06T14:00:00+00:00",
+    "summary": "Amazon’s shopping agent now takes orders by text message and the thread where those orders get placed will carry ads.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=615975",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Creators see promise in Instagram’s long-form push, but question whether exposure is enough",
+    "link": "https://digiday.com/media/creators-see-promise-in-instagrams-long-form-push-but-question-whether-exposure-is-enough/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-06T05:01:00+00:00",
+    "summary": "Instagram wants to pull long-form creators away from YouTube, but is it offering enough? Experts weigh in on the platform's pivot.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616008",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "By the numbers: Ad tech’s widening divide, as AppLovin surges and rivals struggle in Q3",
+    "link": "https://digiday.com/media/by-the-numbers-ad-techs-widening-divide-as-applovin-surges-and-rivals-struggle-in-q3/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-06T05:01:00+00:00",
+    "summary": "Ad tech’s winners and losers emerge as CTV growth masks open-web struggles.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616009",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Future of Marketing Briefing: Creators had a big year. Christmas still went to the celebrities",
+    "link": "https://digiday.com/marketing/future-of-marketing-briefing-creators-had-a-big-year-christmas-still-went-to-the-celebrities/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-06T05:01:00+00:00",
+    "summary": "Despite leaning on creators for most of the year, marketers aren’t doing it for the holiday crunch. That job still belongs to celebrities.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616031",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Digiday Media Buying Summit October Recap: Assessing the ups and challenges of AI’s spread across the media agency landscape",
+    "link": "https://digiday.com/media-buying/digiday-media-buying-summit-october-recap-assessing-the-ups-and-challenges-of-ais-spread-across-the-media-agency-landscape/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-06T05:01:00+00:00",
+    "summary": "A recap of the sessions and insights coming out of Digiday's Fall Media Buying Summit, which centered on AI's impact on the media agency world.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968699",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Fox Corp. Completes $22 Billion Deal for Roku",
+    "link": "https://www.adweek.com/convergent-tv/fox-corp-completes-22-billion-deal-for-roku/",
+    "published": "2026-11-06T13:42:22+00:00",
+    "summary": "Roku will be folded into Fox Digital Platforms, which also houses Tubi, Fox One, and Red Seat Ventures.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968693",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Meerkat’s Dustin Black Makes an Art of Staying Curious",
+    "link": "https://www.adweek.com/agencies/meerkats-dustin-black-makes-an-art-of-staying-curious/",
+    "published": "2026-11-06T13:16:11+00:00",
+    "summary": "The CCO's lovingly crafted larger-than-life fish and birds carry a message about creativity.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968685",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Brandweek 2026: The ‘Why’ Test Behind Mars’ Boldest Ideas ft. Rankin Carroll",
+    "link": "https://www.adweek.com/brand-marketing/brandweek-2026-the-why-test-behind-mars-boldest-ideas-ft-rankin-carroll/",
+    "published": "2026-11-06T11:47:17+00:00",
+    "summary": "How Mars takes big risks without getting reckless.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968379",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Entries Now Open for the 2027 ADWEEK Marketing Vanguard Awards",
+    "link": "https://www.adweek.com/brand-marketing/entries-now-open-for-the-2027-adweek-marketing-vanguard-awards/",
+    "published": "2026-11-06T10:11:58+00:00",
+    "summary": "Entries are now open for the 2027 ADWEEK Marketing Vanguard Awards, presented by Brand Finance. The best CMOs exceed not only their board’s expectations, but their customers’. Weaving brand building […]",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968652",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "9 Marketing Moves to Know This Week: McDonald’s, Netflix, and More",
+    "link": "https://www.adweek.com/brand-marketing/9-marketing-moves-to-know-this-week-mcdonalds-netflix-and-more/",
+    "published": "2026-11-06T10:01:39+00:00",
+    "summary": "A roundup of this week's biggest marketing leadership moves",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968578",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Amazon is Letting Customers Text Its Shopping Assistant",
+    "link": "https://www.adweek.com/commerce/amazon-is-letting-customers-text-its-shopping-assistant/",
+    "published": "2026-11-06T09:00:00+00:00",
+    "summary": "Amazon is giving customers the ability to text its AI shopping assistant, and serving up ads along the way.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968374",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Political Campaigns Spent a Near-Record $331 Per Voter, But Waste Forces Rethink",
+    "link": "https://www.adweek.com/convergent-tv/political-campaigns-spent-a-near-record-331-per-voter-but-waste-forces-rethink/",
+    "published": "2026-11-06T06:00:00+00:00",
+    "summary": "The GOP's spending advantage didn't translate into votes. That could lead to a strategic rethink.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968354",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Ads of the Week: 11 Campaigns That Caught Our Eye, From Calvin Klein to Dunkin’",
+    "link": "https://www.adweek.com/creativity/ads-of-the-week-11-campaigns-that-caught-our-eye-from-calvin-klein-to-dunkin/",
+    "published": "2026-11-06T06:00:00+00:00",
+    "summary": "Levi’s, Dunkin’, e.l.f., Calvin Klein, and more are behind the week’s most notable ads.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968620",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Election Night 2026 Ratings: NBC News is the Most Watched Network",
+    "link": "https://www.adweek.com/tvnewser/election-night-2026-ratings-nbc-news-is-the-most-watched-network/",
+    "published": "2026-11-05T19:05:19+00:00",
+    "summary": "Fox News was the most-watched cable network in total viewers during primetime, while CNN was No.1 in the demo.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968599",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "The 2026 Political Ad Outlay Was the Dumbest Money Spent In the History of Advertising",
+    "link": "https://www.adweek.com/media/the-2026-political-ad-outlay-was-the-dumbest-money-spent-in-the-history-of-advertising/",
+    "published": "2026-11-05T17:38:24+00:00",
+    "summary": "2026 political advertising was a disgrace.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785001",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "The Stack: Advertising’s Next Chapter",
+    "link": "https://www.exchangewire.com/blog/2026/11/06/the-stack-advertisings-next-chapter/",
+    "published": "2026-11-06T09:19:13+00:00",
+    "summary": "This week, the advertising industry saw major shifts in investment, competition and media buying, as Big Tech earnings revealed the growing cost of AI ambitions and advertising platforms continued to expand their commercial reach. In today’s MadTech Daily, we discuss [...] The post The Stack: Advertising’s Next Chapter appeared first on ExchangeWire.com .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=413859",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "Beyond the opt-in: Engineering consent for better marketing",
+    "link": "https://martech.org/beyond-the-opt-in-engineering-consent-for-better-marketing/",
+    "published": "2026-11-06T16:35:43+00:00",
+    "summary": "Compliance pressure is real, but privacy controls can power better personalization. At the November MarTech Conference, we discussed turning opt-ins into your best first-party data asset. The post Beyond the opt-in: Engineering consent for better marketing appeared first on MarTech .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414247",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "Better prompts start before the prompt",
+    "link": "https://martech.org/better-prompts-start-before-the-prompt/",
+    "published": "2026-11-06T14:39:35+00:00",
+    "summary": "The fastest way to improve AI-built software is defining the user, the task, and what success looks like before generating anything. The post Better prompts start before the prompt appeared first on MarTech .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414269",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "Consumers are still buying. They’re just harder to convince.",
+    "link": "https://martech.org/consumers-are-still-buying-theyre-just-harder-to-convince/",
+    "published": "2026-11-06T13:49:00+00:00",
+    "summary": "Economic pressure hasn’t stopped online shopping, but it has made consumers more skeptical, more price-conscious, and more willing to check the offer. The post Consumers are still buying. They’re just harder to convince. appeared first on MarTech .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414277",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "ChatGPT’s paid traffic is worth far less than Google’s",
+    "link": "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/",
+    "published": "2026-11-06T13:27:00+00:00",
+    "summary": "Paid ChatGPT visits generated 89 cents in revenue per session, compared with $2.45 from paid Google Search. The post ChatGPT’s paid traffic is worth far less than Google’s appeared first on MarTech .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414254",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "Is your affiliate program showing up too late?",
+    "link": "https://martech.org/is-your-affiliate-program-showing-up-too-late/",
+    "published": "2026-11-06T13:05:00+00:00",
+    "summary": "Coupon partners can close sales, but growth also depends on who helps new audiences discover the brand before they’re ready to buy. The post Is your affiliate program showing up too late? appeared first on MarTech .",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "efaeb30a-d9bd-11f1-99ce-6bcfee0912ce",
+    "source": "Marketecture",
+    "category": "adtech",
+    "title": "Episode 198: Alex Cone from Google on Their New Data Set CrUX, Which Really Should be Called CUXr",
+    "link": "https://traffic.megaphone.fm/EAATE8551940631.mp3",
+    "published": "2026-11-06T11:00:00+00:00",
+    "summary": "Google's new ad metrics could reshape how advertisers measure inventory quality and campaign performance.Ari Paparo and Eric Franchi welcome Alex Cone, Group Product Manager at Google Chrome, to discuss the Chrome User Experience Report, ad clutter, and smarter advertising measurement.Plus, they break down Affle's $420M acquisition of Perion, the latest ad tech earnings, CTV growth, Reddit's evolving strategy, and OpenAI's growing influence on search and advertising. Takeaways: - Google's New Ad…",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://openai.com/index/merge-builds-with-openai",
+    "source": "OpenAI News",
+    "category": "platforms",
+    "title": "Merge builds product and business tools with OpenAI technology",
+    "link": "https://openai.com/index/merge-builds-with-openai",
+    "published": "2026-11-05T08:00:00+00:00",
+    "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "https://openai.com/ads/customers/flipsnack",
+    "source": "OpenAI News",
+    "category": "platforms",
+    "title": "Flipsnack grows product signups with conversion optimization",
+    "link": "https://openai.com/ads/customers/flipsnack",
+    "published": "2026-11-05T00:45:15+00:00",
+    "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-7815614485808579332.post-1431969911124501503",
+    "source": "Google Ads Developer",
+    "category": "platforms",
+    "title": "Prepare for CocoaPods read-only mode: Migrate your iOS apps to Swift Package Manager",
+    "link": "http://ads-developers.googleblog.com/2026/11/prepare-for-cocoapods-read-only-mode.html",
+    "published": "2026-11-06T17:58:57+00:00",
+    "summary": "On December 2, 2026 , the CocoaPods Specs repository will permanently transition to read-only mode. As a result, we will no longer publish new versions of the Google Mobile Ads SDK or mediation adapters for iOS to CocoaPods after this date. What this means for your iOS apps If you currently use CocoaPods to install the Google Mobile Ads SDK ( Google-Mobile-Ads-SDK ) or User Messaging Platform SDK ( GoogleUserMessagingPlatform ), keep the following in mind: Existing builds are not affected: All p…",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "6ae9eb47cf2a740001a565c1",
+    "source": "Product Marketing Alliance",
+    "category": "pmm",
+    "title": "PMM Powerhour: AI in the workplace",
+    "link": "https://www.productmarketingalliance.com/pmm-powerhour/ai-in-the-workplace/",
+    "published": "2026-11-06T15:16:45+00:00",
+    "summary": "",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "6aea0fd2cf2a740001a56740",
+    "source": "Product Marketing Alliance",
+    "category": "pmm",
+    "title": "How Bethan Riddell, Director of PMM at S&P Global, proves her positioning’s impact",
+    "link": "https://www.productmarketingalliance.com/prove-your-positionings-commercial-impact/",
+    "published": "2026-11-06T15:00:00+00:00",
+    "summary": "Define what should move before launch, then prove it did.",
+    "added": "2026-11-06T19:55:12.326960+00:00"
+  },
+  {
+    "id": "6aede0ce436092000192d976",
+    "source": "Product Marketing Alliance",
+    "category": "pmm",
+    "title": "Product Marketing Summit | Boston, 2026",
+    "link": "https://www.productmarketingalliance.com/product-marketing-summit-boston-2026/",
+    "published": "2026-11-06T14:30:59+00:00",
+    "summary": "Catch up on all sessions from Product Marketing Summit Boston with insights from HubSpot, Salesforce, Palo Alto Networks & more",
+    "added": "2026-11-06T19:55:12.326960+00:00"
   }
 ]
