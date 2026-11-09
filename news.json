@@ -3078,5 +3078,405 @@
     "published": "2026-11-08T13:31:32+00:00",
     "summary": "Listen now (59 mins) | Tulsee Doshi on building Google’s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve",
     "added": "2026-11-08T18:17:40.658629+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=473471",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "TIME’s AI Agents Do The Coordinating, And Its Sellers Still Do The Selling",
+    "link": "https://www.adexchanger.com/ai/times-ai-agents-do-the-coordinating-and-its-sellers-still-do-the-selling/",
+    "published": "2026-11-09T06:00:52+00:00",
+    "summary": "If an AI agent can turn an advertiser’s RFP into a proposal in minutes, what’s left for a publisher’s ad sales team to do? A lot more selling, said Mark Howard, TIME’s chief operating officer. In the recent past, when an RFP would come in from a potential buyer, it would kick off a flurry […] The post TIME’s AI Agents Do The Coordinating, And Its Sellers Still Do The Selling appeared first on AdExchanger .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=473584",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "Publishers: Agentic AI Isn’t About Pricing, But Whether You Get Any Bids At All",
+    "link": "https://www.adexchanger.com/the-sell-sider/publishers-agentic-ai-isnt-about-pricing-but-whether-you-get-any-bids-at-all/",
+    "published": "2026-11-09T05:35:27+00:00",
+    "summary": "The agentic skeptics have the better argument right now. Anthony Katsur, who runs IAB Tech Lab, expects “several false starts” and years of experimentation and alignment across platforms, agencies and publishers. Razorfish called the mood around agentic AI inevitable – but incremental – at CES back in January. And Digiday’s research in January found that […] The post Publishers: Agentic AI Isn’t About Pricing, But Whether You Get Any Bids At All appeared first on AdExchanger .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=473607",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "The NYT Opens Pandora’s Letterboxd; Roku Joins The Skulk",
+    "link": "https://www.adexchanger.com/daily-news-roundup/the-nyt-opens-pandoras-letterboxd-roku-joins-the-skulk/",
+    "published": "2026-11-09T05:03:39+00:00",
+    "summary": "Letterboxd’s AI training potential might be worth buying; The Fox-Roku acquisition is now complete; and Google is altering the eal. The post The NYT Opens Pandora’s Letterboxd; Roku Joins The Skulk appeared first on AdExchanger .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=614281",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Why publishers must act now to protect content from AI scrapers",
+    "link": "https://digiday.com/sponsored/why-publishers-must-act-now-to-protect-content-from-ai-scrapers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-09T19:47:35+00:00",
+    "summary": "Nick Worth, CEO, Piano Each technology wave brings the same promise: reach, relevance and a seat at the table. When the web arrived, publishers posted content to gain exposure, then spent a decade trying to claw back the revenue they gave away. When social media arrived, publishers threw open their archives to platforms that captured […]",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616118",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Ogilvy and CAA launch partnership to clone celebrity talent for AI ads",
+    "link": "https://digiday.com/marketing/ogilvy-and-caa-launch-partnership-to-clone-celebrity-talent-for-ai-ads/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-09T15:00:00+00:00",
+    "summary": "Big names like actor Terry Crews and athletes could soon appear in AI-generated ads across the web. But they will be marked as such.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616087",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "As publishers await click data, Google’s AI visibility push complicates the opt-out decision",
+    "link": "https://digiday.com/media/as-publishers-await-click-data-googles-ai-visibility-push-complicates-the-opt-out-decision/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-09T05:01:00+00:00",
+    "summary": "Google is moving on two fronts: working up the U.K’s Competition and Markets Authority-mandated search opt-out publishers have long sought, while enhancing AI Overviews in ways that could make opting out less appealing.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616103",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "How performance metrics are rewriting creator rate cards",
+    "link": "https://digiday.com/marketing/how-performance-metrics-are-rewriting-creator-rate-cards/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-09T05:01:00+00:00",
+    "summary": "Advertisers now demand creator metrics like cost per lead and conversions, not follower counts.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616144",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "WTF is the AI training opt-out policy token?",
+    "link": "https://digiday.com/media/wtf-is-the-ai-training-opt-out-policy-token/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-09T05:01:00+00:00",
+    "summary": "Major AI companies are backing a new AI training opt-out standard proposal for publishers, but it exposes deeper tensions over AI scraping.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616154",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Media Buying Briefing: Forrester’s Wave report finds growing homogeneity among the 12 biggest agencies",
+    "link": "https://digiday.com/media-buying/media-buying-briefing-forresters-wave-report-finds-growing-homogeneity-among-the-12-biggest-agencies/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-09T05:01:00+00:00",
+    "summary": "Forrester's Wave study assessed 12 agency groups for their current offerings and strategies, and found diminishing differentiation among the largest of them.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616165",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "ChatGPT is about to show brands their mention count",
+    "link": "https://digiday.com/marketing/chatgpt-is-about-to-show-brands-their-mention-count/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-09T05:01:00+00:00",
+    "summary": "The AI platform is testing an analytics dashboard that counts how often a business shows up in ChatGPT’s answers.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968539",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Week of Oct. 26 Evening News Ratings: Newscasts Lose Viewers",
+    "link": "https://www.adweek.com/tvnewser/week-of-oct-26-2026-evening-news-ratings/",
+    "published": "2026-11-09T16:31:36+00:00",
+    "summary": "Across-the-board declines took place the week before the midterm elections.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968966",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "SiriusXM Taps Tubi’s Anjali Sud as CEO to Replace Jennifer Witz",
+    "link": "https://www.adweek.com/convergent-tv/siriusxm-taps-tubis-anjali-sud-as-ceo-to-replace-jennifer-witz/",
+    "published": "2026-11-09T16:28:53+00:00",
+    "summary": "Outgoing CEO Jennifer Witz leaves amid rising revenue, record-low customer churn, and near-record free cash flow.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968933",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Week of Oct. 26 Cable News Ratings: MS NOW Up Across All Dayparts",
+    "link": "https://www.adweek.com/tvnewser/week-of-oct-26-2026-cable-news-ratings/",
+    "published": "2026-11-09T16:08:14+00:00",
+    "summary": "Fox News was the only network with double digit growth in one of the measured demos.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968936",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "The AI-or-Not Debate Is Advertising’s Most Pointless Argument",
+    "link": "https://www.adweek.com/brand-marketing/the-ai-or-not-debate-is-advertisings-most-pointless-argument/",
+    "published": "2026-11-09T14:24:36+00:00",
+    "summary": "Almost nothing you watch or read is AI-free any more.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968912",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "OpenAI’s Monetization Chief to Ad Partners: User Trust Means Some Things ‘We Just Can’t’ Do",
+    "link": "https://www.adweek.com/media/openais-monetization-chief-to-ad-partners-user-trust-means-some-things-we-just-cant-do/",
+    "published": "2026-11-09T13:04:00+00:00",
+    "summary": "OpenAI’s monetization chief says the company’s privacy rules mean ad partners won’t always get what they want, and he wouldn’t own the reported $100 billion ad revenue target.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968887",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Monday, Nov. 2 Daily Cable News Ratings: Rachel Maddow takes Total Viewers and Demo",
+    "link": "https://www.adweek.com/tvnewser/monday-nov-2-2026-daily-cable-news-ratings/",
+    "published": "2026-11-09T12:14:34+00:00",
+    "summary": "MS NOW and CNN finish ahead of Fox News at 7 p.m. ET in the demo",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968820",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "ADWEEK Agencies Advantage: As Reviews Give Way to Handshakes, Clients Will Decide The Fate of the Pitch",
+    "link": "https://www.adweek.com/agencies/adweek-agencies-advantage-as-reviews-give-way-to-handshakes-clients-will-decide-the-fate-of-the-pitch/",
+    "published": "2026-11-09T12:10:55+00:00",
+    "summary": "As agencies argue about the value of the pitch, clients ultimately hold the keys to overhaul the agency selection process",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968888",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Oct. 31- Nov. 1 Daily Cable News Ratings: Real Time Wins Saturday",
+    "link": "https://www.adweek.com/tvnewser/oct-31-nov-1-2026-daily-cable-news-ratings/",
+    "published": "2026-11-09T12:08:20+00:00",
+    "summary": "Fox News finished in first place on Sunday",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968485",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Your Brand Is Your Most Powerful Differentiator",
+    "link": "https://www.adweek.com/brand-marketing/your-brand-is-your-most-powerful-differentiator/",
+    "published": "2026-11-09T09:25:46+00:00",
+    "summary": "NAPIER’s founder on why independent shops can no longer afford to neglect their own brands",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1968849",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Xfinity Conjures John C. Reilly To Get You Off Wi-Fi This Holiday Season",
+    "link": "https://www.adweek.com/creativity/xfinity-conjures-john-c-reilly-to-get-you-off-wi-fi-this-holiday-season/",
+    "published": "2026-11-09T09:21:55+00:00",
+    "summary": "Telco introduces new Holiday Mode feature with Reilly paying homage to A Christmas Carol as The Ghost of Christmas Very-Recent-Past",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785099",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "EXTE Appoints Lee Lythe as Managing Director UK",
+    "link": "https://www.exchangewire.com/blog/2026/11/09/exte-appoints-lee-lythe-as-managing-director-uk/",
+    "published": "2026-11-09T13:01:46+00:00",
+    "summary": "EXTE, the global ad tech company bringing together technology, creativity, and premium media, has appointed Lee Lythe as managing director UK. Lythe will lead EXTE's UK business, driving commercial growth, strengthening relationships with agencies and advertisers, and building on the company's [...] The post EXTE Appoints Lee Lythe as Managing Director UK appeared first on ExchangeWire.com .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785092",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "Global Ignites Further Outdoor Growth by Acquiring Alight Media",
+    "link": "https://www.exchangewire.com/blog/2026/11/09/global-ignites-further-outdoor-growth-by-acquiring-alight-media/",
+    "published": "2026-11-09T11:45:29+00:00",
+    "summary": "Global, the Media & Entertainment group, today (9th November 2026) announced it has agreed to acquire Alight Media, one of the UK’s leading digital media owners. Award-winning Alight Media operates a national portfolio of over 1500 digital 48-sheets, digital, and classic [...] The post Global Ignites Further Outdoor Growth by Acquiring Alight Media appeared first on ExchangeWire.com .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785086",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "Digest: Anthropic Signs First Publisher Licensing Deal; Tubi & TikTok Team Up to Bring Creator Content to TV",
+    "link": "https://www.exchangewire.com/blog/2026/11/09/digest-anthropic-signs-first-publisher-licensing-deal-tubi-tiktok-team-up-to-bring-creator-content-to-tv/",
+    "published": "2026-11-09T09:00:00+00:00",
+    "summary": "In today’s Digest, we cover Anthropic reportedly striking its first publisher licensing deal with the Associated Press, Tubi and TikTok teaming up to turn creators into TV series makers, and The New York Times adding 420,000 digital subscribers in Q3 [...] The post Digest: Anthropic Signs First Publisher Licensing Deal; Tubi & TikTok Team Up to Bring Creator Content to TV appeared first on ExchangeWire.com .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1784933",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "Opti Digital Launches NEXA an AI-Powered Intelligence Layer",
+    "link": "https://www.exchangewire.com/blog/2026/11/09/opti-digital-launches-nexa-an-ai-powered-intelligence-layer/",
+    "published": "2026-11-09T08:00:00+00:00",
+    "summary": "Opti Digital, the leading ad tech company specialising in publisher revenue optimisation, today (9th November, 2026) announced the launch of NEXA, its AI-powered intelligence layer designed to connect signals across the Opti Digital platform and help publisher teams make faster, [...] The post Opti Digital Launches NEXA an AI-Powered Intelligence Layer appeared first on ExchangeWire.com .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=413865",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "Content everywhere: Winning attention in a fragmented marketing landscape",
+    "link": "https://martech.org/content-everywhere-winning-attention-in-a-fragmented-marketing-landscape/",
+    "published": "2026-11-09T16:43:41+00:00",
+    "summary": "Digital fragmentation is pushing teams to their limits. On Nov. 4, learn how to stretch content budget and capture buyer attention where it counts. The post Content everywhere: Winning attention in a fragmented marketing landscape appeared first on MarTech .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414023",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "Combining MMM with post-purchase survey attribution",
+    "link": "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/",
+    "published": "2026-11-09T13:55:00+00:00",
+    "summary": "Enterprise marketers use top-down statistical modeling and bottom-up survey data to capture hard-to-track dark social shares and offline mentions. The post Combining MMM with post-purchase survey attribution appeared first on MarTech .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414299",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "Why marketing needs different approaches to measurement",
+    "link": "https://martech.org/why-marketing-needs-different-approaches-to-measurement/",
+    "published": "2026-11-09T13:37:00+00:00",
+    "summary": "Stable work rewards exact numbers. Campaigns, customer journeys, and forecasting often don’t. The post Why marketing needs different approaches to measurement appeared first on MarTech .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414289",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "B2B CTV tactics that go beyond brand awareness",
+    "link": "https://martech.org/b2b-ctv-tactics-that-go-beyond-brand-awareness/",
+    "published": "2026-11-09T13:02:00+00:00",
+    "summary": "Your next CTV campaign could start with a booth scan, a closed-lost deal, or a partner's customer list. Here's how to put that data to work. The post B2B CTV tactics that go beyond brand awareness appeared first on MarTech .",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.beet.tv/?p=117454",
+    "source": "Beet.TV",
+    "category": "adtech",
+    "title": "George Castrissiades of Teads Exposes CTV’s Shell Game: Premium Prices and Mystery Shows",
+    "link": "https://www.beet.tv/2026/11/george-castrissiades-of-teads-exposes-ctvs-shell-game-premium-prices-and-mystery-shows.html",
+    "published": "2026-11-09T19:18:54+00:00",
+    "summary": "Connected television was supposed to make advertising smarter. Instead, the industry has managed to recreate some of traditional TV’s greatest hits: mysterious pricing, questionable measurement and the occasional suspicion that somebody’s selling you a Cadillac but delivering a used Kia. For George Castrissiades, head of connected television in North America at global advertising technology company […]",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.beet.tv/?p=117458",
+    "source": "Beet.TV",
+    "category": "adtech",
+    "title": "Adtech Needs Referee, Not Another Player With a Whistle: Shinka CEO Kieran Greene",
+    "link": "https://www.beet.tv/2026/11/adtech-needs-referee-not-another-player-with-a-whistle-shinka-ceo-kieran-greene.html",
+    "published": "2026-11-09T19:18:35+00:00",
+    "summary": "The advertising technology industry has a remarkable talent for inventing new ways to collect money from people who thought they were already paying enough. Now, as artificial intelligence threatens to introduce another generation of middlemen, some publishers are starting to wonder whether they should take back control of the machinery. Kieran Greene, founder and chief […]",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.beet.tv/?p=117331",
+    "source": "Beet.TV",
+    "category": "adtech",
+    "title": "Can Billboards Rise Above the AI Slop? Outfront’s Hackett Bets on Trust",
+    "link": "https://www.beet.tv/2026/11/can-billboards-rise-above-the-ai-slop-outfronts-hackett-bets-on-trust.html",
+    "published": "2026-11-08T18:40:37+00:00",
+    "summary": "As AI-generated content, bots, and autoplaying video crowd the screens in people’s pockets, some in out-of-home advertising think the scarcity of verifiably human attention could make the humble billboard a more valuable buy. Out-of-home sellers argue that seeing a brand in the physical world builds a layer of trust that helps search, social, and CTV […]",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.beet.tv/?p=117387",
+    "source": "Beet.TV",
+    "category": "adtech",
+    "title": "CMI Media Group’s Lauren Stearley: Pharma Advertising Is More Innovative Than Its Reputation Suggests",
+    "link": "https://www.beet.tv/2026/11/cmi-media-groups-lauren-stearley-pharma-advertising-is-more-innovative-than-its-reputation-suggests.html",
+    "published": "2026-11-08T18:39:37+00:00",
+    "summary": "Mention pharma advertising and most people picture a TV spot rattling off horrific side effects. But that perception misses most of what actually happens in the category and why these spots might be more genuinely compelling to the viewers these brands are trying to reach. “When working in pharma advertising, you can multiply the learning […]",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "bf89fe3a-dbef-11f1-8e1d-c7277bb427fc",
+    "source": "Marketecture",
+    "category": "adtech",
+    "title": "How Intentwise Is Using AI to Transform Amazon Advertising and Retail Analytics",
+    "link": "https://traffic.megaphone.fm/EAATE1338369784.mp3",
+    "published": "2026-11-09T05:00:00+00:00",
+    "summary": "Ari Paparo sits down with Sreenath Reddy, Founder and CEO of Intentwise, to explore how AI is transforming Amazon advertising, retail analytics, and e-commerce operations.Sreenath shares how Intentwise uses AI-powered insights, Amazon Marketing Cloud, and automation to help brands optimize campaigns, improve advertising efficiency, and make smarter business decisions. Takeaways AI-powered retail intelligence: How Intentwise unifies fragmented advertising, retail, and operational data into one AI…",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/",
+    "source": "Google Ads & Commerce",
+    "category": "platforms",
+    "title": "Holiday 100: Your guide to this year’s top trending gifts",
+    "link": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/",
+    "published": "2026-11-09T12:00:00+00:00",
+    "summary": "Text \"Holiday 100\" surrounded by various products: a piano keyboard mat, a camera, a pair of jeans, a kettle, a suitcase, a vase, and a tube of lipstick. In the top right is a bow.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "tag:blogger.com,1999:blog-7815614485808579332.post-1279901102630837252",
+    "source": "Google Ads Developer",
+    "category": "platforms",
+    "title": "Display targeting changes in Demand Gen campaigns starting the week of December 1, 2026",
+    "link": "http://ads-developers.googleblog.com/2026/11/display-targeting-changes-in-demand-gen.html",
+    "published": "2026-11-09T17:02:52+00:00",
+    "summary": "Starting the week of December 1, 2026, campaign-level Display targeting ( network_settings.target_content_network ) will default to enabled ( true ) for newly created Demand Gen campaigns. Display network targeting will be managed directly at the ad group level using channel controls ( demand_gen_ad_group_settings.channel_controls.selected_channels.display ) and channel strategies. Overall default campaign serving behavior will remain unchanged. You will no longer be able to disable Display targ…",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+    "source": "Lenny's Newsletter",
+    "category": "tech",
+    "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+    "link": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+    "published": "2026-11-09T20:37:49+00:00",
+    "summary": "Watch now (25 mins) | 🎙️ My first-look at Fable 5.2: what it built for me, where it fell down, and whether it belongs in your daily AI stack",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+    "source": "Lenny's Newsletter",
+    "category": "tech",
+    "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+    "link": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+    "published": "2026-11-09T16:01:20+00:00",
+    "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+    "source": "Lenny's Newsletter",
+    "category": "tech",
+    "title": "How this founder built a better Duolingo with Codex | William Imoh",
+    "link": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+    "published": "2026-11-09T13:04:17+00:00",
+    "summary": "Watch now (39 mins) | 🎙️ Hackmamba founder William Imoh shows the native app he built with Codex to learn Norwegian, and the Lord of the Rings Grok bot fellowship that helps run his company",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "6ae8b19c0a93cf00016ef148",
+    "source": "Product Marketing Alliance",
+    "category": "pmm",
+    "title": "What it feels like to move from product management to product marketing",
+    "link": "https://www.productmarketingalliance.com/product-management-to-product-marketing/",
+    "published": "2026-11-09T12:03:00+00:00",
+    "summary": "An account from someone who has transitioned from product management to product marketing. What it feels like, the differences, and how to get alignment between the two.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
+  },
+  {
+    "id": "679cbf8551e21500018cdafa",
+    "source": "Product Marketing Alliance",
+    "category": "pmm",
+    "title": "Marketing calendar template 2027",
+    "link": "https://www.productmarketingalliance.com/marketing-calendar-template-framework/",
+    "published": "2026-11-09T09:00:00+00:00",
+    "summary": "Plan, execute, and optimize your marketing strategy.",
+    "added": "2026-11-09T22:56:54.610184+00:00"
   }
 ]
