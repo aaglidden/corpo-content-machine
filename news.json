@@ -6768,5 +6768,35 @@
     "published": "2026-11-20T15:00:00+00:00",
     "summary": "How PMMs and hiring managers find their match.",
     "added": "2026-11-20T20:59:28.970243+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971013",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "The Media RFP Is Quietly Becoming Obsolete ft. Bruce Williams",
+    "link": "https://www.adweek.com/brand-marketing/the-media-rfp-is-quietly-becoming-obsolete-ft-bruce-williams/",
+    "published": "2026-11-20T17:12:02+00:00",
+    "summary": "Plus, why fragmentation is getting in the way of better consumer experiences.",
+    "added": "2026-11-21T20:00:32.888748+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971010",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "The Art, Science and Theater of Modern Marketing ft. Thomas Ranese",
+    "link": "https://www.adweek.com/brand-marketing/the-art-science-and-theater-of-modern-marketing-ft-thomas-ranese/",
+    "published": "2026-11-20T16:56:01+00:00",
+    "summary": "The Intuit CMO on why the C-suite still needs to get their hands dirty.",
+    "added": "2026-11-21T20:00:32.888748+00:00"
+  },
+  {
+    "id": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+    "source": "Lenny's Newsletter",
+    "category": "tech",
+    "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+    "link": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+    "published": "2026-11-21T16:49:56+00:00",
+    "summary": "Community Wisdom 306",
+    "added": "2026-11-21T20:00:32.888748+00:00"
   }
 ]
