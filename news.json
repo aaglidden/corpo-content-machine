@@ -6838,5 +6838,355 @@
     "published": "2026-11-22T13:31:53+00:00",
     "summary": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
     "added": "2026-11-22T20:15:58.667509+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=474680",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "AI Needs To Cite Its Sources. This Consumer Intelligence Platform Ensures It Does",
+    "link": "https://www.adexchanger.com/ai/ai-needs-to-cite-its-sources-this-consumer-intelligence-platform-ensures-it-does/",
+    "published": "2026-11-23T07:00:38+00:00",
+    "summary": "Stravito uses a variety of data sources to build out AI personas for different audiences, and touts a “glass box” approach to AI. The post AI Needs To Cite Its Sources. This Consumer Intelligence Platform Ensures It Does appeared first on AdExchanger .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=474809",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "The Trade Desk Can Win Again By Embracing Objectivity And Letting Go Of The Open Web",
+    "link": "https://www.adexchanger.com/data-driven-thinking/the-trade-desk-can-win-again-by-embracing-objectivity-and-letting-go-of-the-open-web/",
+    "published": "2026-11-23T05:35:30+00:00",
+    "summary": "Wall Street loves to pile on ad tech. They’re all about you when you’re up and quick to dismiss you when you’re down. No company has felt the highs and lows of being public quite like The Trade Desk (TTD), which, outside of AppLovin and the Magnificent 7, is the best company to emerge from […] The post The Trade Desk Can Win Again By Embracing Objectivity And Letting Go Of The Open Web appeared first on AdExchanger .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adexchanger.com/?p=474820",
+    "source": "AdExchanger",
+    "category": "adtech",
+    "title": "Why Mobile Apps Treasure Downtime; Terms Of Non-Endearment",
+    "link": "https://www.adexchanger.com/daily-news-roundup/monday-23112026/",
+    "published": "2026-11-23T05:03:51+00:00",
+    "summary": "Why don’t more apps double as mobile games?; OpenAI is already tweaking ChatGPT’s business hub; and Bending Spoons is building an army. The post Why Mobile Apps Treasure Downtime; Terms Of Non-Endearment appeared first on AdExchanger .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=617130",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "The next test for agentic media",
+    "link": "https://digiday.com/sponsored/the-next-test-for-agentic-media/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T19:56:14+00:00",
+    "summary": "Anudit Vikram, Chief Product Officer, Channel Factory Advertisers are building AI systems around the way their teams already work. These teams have their own agents, their own data and their own rules for what an agent may and may not do. At the same time, most of the specialized intelligence they depend on still sits […]",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=617091",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Agencies are selling AI efficiency — clients want outcomes",
+    "link": "https://digiday.com/sponsored/agencies-are-selling-ai-efficiency-clients-want-outcomes/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T16:41:38+00:00",
+    "summary": "Amol Waishampayan, co-founder, fullthrottle.ai Agencies spent the last two years pitching AI to clients as a cost story. Faster work, leaner teams, lower fees. Clients took the meeting, nodded along and then waited for the invoice to shrink. It didn’t. AI strategies now sound interchangeable to clients, who say the savings never showed up in […]",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=614158",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "D+ Research: Brand’s holiday marketing tactics shift in 2026",
+    "link": "https://digiday.com/marketing/d-research-brands-holiday-marketing-tactics-shift-in-2026/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T05:01:00+00:00",
+    "summary": "Holiday marketing is changing: CTV/streaming and TV ads are gaining traction in 2026.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=616885",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "The Rundown: BADBOX 3.0, the CTV ad fraud scheme generating 40 billion bid requests a day",
+    "link": "https://digiday.com/media-buying/the-rundown-badbox-3-0-the-ctv-ad-fraud-scheme-generating-40-billion-bid-requests-a-day/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T05:01:00+00:00",
+    "summary": "HUMAN Security's latest investigation queries the effectiveness of CTV verification safeguards.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=617011",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Gap Inc. is betting on ‘fashiontainment’ to fuel growth",
+    "link": "https://digiday.com/marketing/gap-inc-is-betting-on-fashiontainment-to-fuel-growth/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T05:01:00+00:00",
+    "summary": "Gap Inc. has tapped boy band Just Your Type (JYT) for a multi-year partnership and launched “The Agency,” a scripted microseries made for Banana Republic.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=617026",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Brands boost Black Friday CTV, retail and search spending",
+    "link": "https://digiday.com/media-buying/brands-boost-black-friday-ctv-retail-and-search-spending/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T05:01:00+00:00",
+    "summary": "Advertisers continue to increase investments on the retail weekend but AI, tariffs and discounting pressure present banana skins.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=617046",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Hybrid won the in-housing debate, at least among the largest advertisers",
+    "link": "https://digiday.com/media-buying/hybrid-won-the-in-housing-debate-at-least-among-the-largest-advertisers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T05:01:00+00:00",
+    "summary": "The shift has been playing for the best part of a decade. COMvergence’s first Global Advertiser Survey shows had far its got. T",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://digiday.com/?p=617054",
+    "source": "Digiday",
+    "category": "adtech",
+    "title": "Media Buying Briefing: The midterm elections offer a window into media buying for ’28",
+    "link": "https://digiday.com/media-buying/media-buying-briefing-the-midterm-elections-offer-a-window-into-media-buying-for-28/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "published": "2026-11-23T05:01:00+00:00",
+    "summary": "With more than $12 billion spent this year, expectations are that number will only rise in 2028, with lots more spent as early as Q2 2027. Where will it be spent?",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971188",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "5 Questions For…CNBC’s Eamon Javers on His Call With President Trump on Jensen Huang’s Nvidia Reinstatement",
+    "link": "https://www.adweek.com/tvnewser/5-questions-eamon-javers-call-with-trump-on-huangs-nvidia-reinstatement/",
+    "published": "2026-11-23T15:47:40+00:00",
+    "summary": "CNBC was one of the first networks to break the news and also the first to speak with the president.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971143",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "The Art of Using AI as ‘Power Steering,’ Not Autopilot ft. Kathy Collins",
+    "link": "https://www.adweek.com/brand-marketing/the-art-of-using-ai-as-power-steering-not-autopilot-ft-kathy-collins/",
+    "published": "2026-11-23T15:22:02+00:00",
+    "summary": "What changes when you start owning the numbers.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971000",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Pet Brands Find New Ways to Invite the Family Dog to Thanksgiving Dinner",
+    "link": "https://www.adweek.com/brand-marketing/pet-brands-find-new-ways-to-invite-the-family-dog-to-thanksgiving-dinner/",
+    "published": "2026-11-23T15:17:00+00:00",
+    "summary": "Elevated to child status, dogs are getting a seat at the holiday table.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971140",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Wednesday, Nov. 18 Daily Cable News Ratings: Fox News Owns the Evening",
+    "link": "https://www.adweek.com/tvnewser/wednesday-nov-18-daily-cable-news-ratings-fox-news-owns-the-evening/",
+    "published": "2026-11-23T14:49:09+00:00",
+    "summary": "The 6 p.m. ET timeslot was heavily contested by MS NOW and CNN in the demo.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971126",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Modelo Becomes First Official Beer of the NCAA",
+    "link": "https://www.adweek.com/convergent-tv/modelo-becomes-first-official-beer-of-the-ncaa/",
+    "published": "2026-11-23T12:40:01+00:00",
+    "summary": "March Madness will be the focus but over 90 championships will be covered.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971084",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Dr. Alex Cooper Prescribes Less Screen Time in Google Pixel’s Holiday Ad",
+    "link": "https://www.adweek.com/brand-marketing/dr-alex-cooper-prescribes-less-screen-time-in-google-pixels-holiday-ad/",
+    "published": "2026-11-23T12:00:00+00:00",
+    "summary": "'Phonehead Therapy' sees Cooper channel her mom, Laurie Cooper, a real-life therapist.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971078",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Verizon’s Latest Heartthrob Is Jonathan Bailey as a Sexy Scrooge",
+    "link": "https://www.adweek.com/creativity/verizons-latest-heartthrob-is-jonathan-bailey-as-a-sexy-scrooge/",
+    "published": "2026-11-23T09:00:00+00:00",
+    "summary": "Verizon casts Jonathan Bailey, Bridgerton star and People's 2025 Sexiest Man Alive, as Scrooge in its campy holiday tale.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971069",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Geico’s First Holiday Film Reveals Its Entertainment Ambitions",
+    "link": "https://www.adweek.com/creativity/geicos-first-holiday-film-reveals-its-entertainment-ambitions/",
+    "published": "2026-11-23T09:00:00+00:00",
+    "summary": "Geico's handmade holiday film will air during the Macy's Thanksgiving Day Parade, where the brand will also debut its first float.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971050",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "BuzzFeed Taps Influential Co-founder Chris Poydenis As Revenue Chief",
+    "link": "https://www.adweek.com/media/buzzfeed-hires-influential-chris-poydenis-chief-revenue-officer/",
+    "published": "2026-11-23T09:00:00+00:00",
+    "summary": "Poydenis and his longtime lieutenant, Jesse Batres, will lead sales as Byron Allen tries to remake the struggling publisher into a free-streaming platform.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.adweek.com/?p=1971030",
+    "source": "Adweek",
+    "category": "adtech",
+    "title": "Amazon’s Alan Moss on How Black Friday Sports Lineup, Shoppable Ads Are Winning Advertisers",
+    "link": "https://www.adweek.com/performance-marketing/amazons-alan-moss-on-how-black-friday-sports-lineup-shoppable-ads-are-winning-advertisers/",
+    "published": "2026-11-23T09:00:00+00:00",
+    "summary": "More than 100 unique advertisers will be featured during Prime Video’s Black Friday sporting lineup.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785468",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "Clinch Expands Leadership to Accelerate Enterprise Growth and Innovation",
+    "link": "https://www.exchangewire.com/blog/2026/11/23/clinch-expands-leadership-to-accelerate-enterprise-growth-and-innovation/",
+    "published": "2026-11-23T12:00:00+00:00",
+    "summary": "Clinch, the agentic operating system for omnichannel advertising, today (23rd November, 2026) announced the promotion of Taylor West to chief revenue officer and the appointment of Dean Jayson as vice president of growth strategy. Alongside open roles across multiple departments, [...] The post Clinch Expands Leadership to Accelerate Enterprise Growth and Innovation appeared first on ExchangeWire.com .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785477",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "Captify (Part of Verve) Adds New Polling Data Signals to Search & AI Insights",
+    "link": "https://www.exchangewire.com/blog/2026/11/23/captify-part-of-verve-adds-new-polling-data-signals-to-search-ai-insights/",
+    "published": "2026-11-23T11:18:51+00:00",
+    "summary": "Captify, part of Verve, a global advertising technology company, launched Schema audiences, bringing together open web search behaviour, conversational LLM signals, and polling data to give brands a richer, more complete understanding of what consumers want, why they want it, [...] The post Captify (Part of Verve) Adds New Polling Data Signals to Search & AI Insights appeared first on ExchangeWire.com .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785456",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "Digest: Intuit Exits Mailchimp With $3.68bn Sale; WeChat Targets 96,011 Accounts for Misleading Profiles",
+    "link": "https://www.exchangewire.com/blog/2026/11/23/digest-google-keeps-adx-but-faces-ad-tech-reforms-intuit-exits-mailchimp-with-3-68bn-sale/",
+    "published": "2026-11-23T10:51:20+00:00",
+    "summary": "In today’s ExchangeWire News Digest, we discuss Intuit selling Mailchimp to Bending Spoons for USD$3.68bn, less than a third of its 2021 valuation, and tech stocks falling as Anthropic’s IPO fails to reignite the AI trade. The post Digest: Intuit Exits Mailchimp With $3.68bn Sale; WeChat Targets 96,011 Accounts for Misleading Profiles appeared first on ExchangeWire.com .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.exchangewire.com/?p=1785384",
+    "source": "ExchangeWire",
+    "category": "adtech",
+    "title": "Mobupps Presents New Digital Experience",
+    "link": "https://www.exchangewire.com/blog/2026/11/23/mobupps-presents-new-digital-experience/",
+    "published": "2026-11-23T10:04:31+00:00",
+    "summary": "For more than 17 years, Mobupps has been building technology, media infrastructure, and expertise to help businesses grow in an increasingly complex advertising industry. What started in 2008 has evolved into an AI-powered performance growth platform connecting advertisers, publishers, data, media, [...] The post Mobupps Presents New Digital Experience appeared first on ExchangeWire.com .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414697",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "How AI is re-shaping mid-market marketing",
+    "link": "https://martech.org/how-ai-is-re-shaping-mid-market-marketing/",
+    "published": "2026-11-23T14:25:11+00:00",
+    "summary": "AI should give mid-market teams a boost as a force multiplier and eliminator of busywork. But is it? The post How AI is re-shaping mid-market marketing appeared first on MarTech .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414030",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "How to vet AI capabilities during martech RFPs",
+    "link": "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/",
+    "published": "2026-11-23T13:19:00+00:00",
+    "summary": "Six questions can tell you whether a vendor’s “AI” is genuinely new or just old automation with a fresh label. The post How to vet AI capabilities during martech RFPs appeared first on MarTech .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414678",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "What’s missing from your 2027 marketing AI budget?",
+    "link": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
+    "published": "2026-11-23T12:25:00+00:00",
+    "summary": "Buying AI tools is easy. Getting teams to use them is harder. Here's how to fund the people and processes that turn AI spending into results. The post What’s missing from your 2027 marketing AI budget? appeared first on MarTech .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://martech.org/?p=414710",
+    "source": "MarTech",
+    "category": "adtech",
+    "title": "How to build reliable client reporting with AI by AgencyAnalytics",
+    "link": "https://martech.org/how-to-build-reliable-client-reporting-with-ai/",
+    "published": "2026-11-23T12:00:00+00:00",
+    "summary": "Give AI the right client data, and it’ll give you answers you can trust. The post How to build reliable client reporting with AI appeared first on MarTech .",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.beet.tv/?p=117574",
+    "source": "Beet.TV",
+    "category": "adtech",
+    "title": "PayPal’s Greg Archibald: Checkout Becomes More Valuable in the Age of AI Agents",
+    "link": "https://www.beet.tv/2026/11/paypals-greg-archibald-checkout-becomes-more-valuable-in-the-age-of-ai-agents.html",
+    "published": "2026-11-23T19:51:39+00:00",
+    "summary": "RANCHO PALOS VERDES, CALIF. — When an AI agent does the shopping, someone still has to stand behind the purchase. Consumers handing that task to a machine want to know the transaction was secure, the shopper was protected, and the merchant is real. Greg Archibald, vp of global ad sales at PayPal, thinks that need […]",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.beet.tv/?p=117565",
+    "source": "Beet.TV",
+    "category": "adtech",
+    "title": "Advertising Needs to Go Outside, Get a Grip: Outfront’s Nick Brien",
+    "link": "https://www.beet.tv/2026/11/advertising-needs-to-go-outside-get-a-grip-outfronts-nick-brien.html",
+    "published": "2026-11-23T19:50:20+00:00",
+    "summary": "Advertising has a habit of chasing consumers around the internet like a desperate ex with a tracking pixel. Nick Brien, chief executive of Outfront, would like to remind marketers that those consumers also leave the house. Speaking with Beet.TV at the DMS by LUMA digital media summit, Brien said out-of-home advertising needs a serious overhaul […]",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "0c2da832-e739-11f1-9801-8f0dd16ae5a5",
+    "source": "Marketecture",
+    "category": "adtech",
+    "title": "Is Your Brand Invisible to LLMs? What It Takes to Win in the AI Scrum",
+    "link": "https://traffic.megaphone.fm/EAATE3025134455.mp3",
+    "published": "2026-11-23T12:26:00+00:00",
+    "summary": "At Marketecture Live Chicago, Stephanie Paterik, VP, Insights, EMARKETER, reveals how AI is transforming brand discovery, consumer shopping behavior, and digital advertising. Drawing on original research from EMARKETER's AI Visibility Lab, Stephanie explores why traditional SEO success doesn't guarantee visibility in ChatGPT and Gemini, how AI platforms prioritize trusted sources, and what marketers can do to strengthen their brand presence in the age of generative AI. Takeaways - AI is transfor…",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+    "source": "Lenny's Newsletter",
+    "category": "tech",
+    "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+    "link": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+    "published": "2026-11-23T16:01:48+00:00",
+    "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+    "source": "Lenny's Newsletter",
+    "category": "tech",
+    "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+    "link": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+    "published": "2026-11-23T13:04:43+00:00",
+    "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+    "added": "2026-11-24T00:42:41.223713+00:00"
+  },
+  {
+    "id": "6b043bc3c04fe500012df329",
+    "source": "Product Marketing Alliance",
+    "category": "pmm",
+    "title": "Analyst relations plan",
+    "link": "https://www.productmarketingalliance.com/analyst-relations-plan-framework/",
+    "published": "2026-11-23T13:21:10+00:00",
+    "summary": "Your step-by-step plan for a focused, effective analyst relations program.",
+    "added": "2026-11-24T00:42:41.223713+00:00"
   }
 ]
